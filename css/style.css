@@ -6,6 +6,15 @@
     --dark: #17224D;
 }
 
+body {
+    background-color: #f8f8f8;
+}
+
+.py-new-5 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .fw-medium {
     font-weight: 600 !important;
 }
@@ -107,7 +116,7 @@
     margin-right: 30px;
     padding: 25px 0;
     color: var(--dark);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
     outline: none;
@@ -132,6 +141,17 @@
         margin-top: 1rem;
         padding-top: 1rem;
         border-top: 1px solid #EEEEEE;
+    }
+
+    .phn-title {
+        display: block;
+    }
+}
+
+@media only screen and  (max-width: 991) {
+
+    .phn-title {
+        display: block;
     }
 }
 
@@ -251,6 +271,11 @@
     color: var(--light);
 }
 
+/* About section */
+
+.about-section {
+    background-color: #FFFFFF;
+}
 
 /*** Facts ***/
 .fact {
@@ -266,6 +291,13 @@
     color: #1E60AA;
     padding: 12px;
     background-color: white;
+}
+
+.memlogin a:hover {
+    background-color:#184c88;
+    color: white;
+    transition: 0.2s ease-out; 
+    border: 0.5px solid white;
 }
 
 .memlogin .test{
@@ -302,6 +334,26 @@
 
 
 /*** Service ***/
+.services {
+    background: #f8f8f8;
+}
+
+.services .serviceslower {
+    background-color: #1E60AA;
+}
+
+.services .serviceslower h5, .services .serviceslower i{
+    color: white;
+}
+
+.services .serviceslower .btn-outline-primary:hover{
+    background-color: white;
+}
+
+.services .serviceslower .btn-outline-primary:hover i {
+    color: #1E60AA;
+}
+
 .service-item-top img {
     transition: .5s;
 }
@@ -475,7 +527,11 @@
     border-bottom-color: var(--primary);
 }
 
+/* contact section */
 
+.contact-section {
+    background-color: white;
+}
 /*** Team ***/
 .team-item img {
     transition: .5s;
@@ -638,4 +694,222 @@
 
 .footer .copyright a {
     color: var(--light);
+}
+
+.objectives .home-objectives {
+    list-style: circle;
+    line-height: 30px;
+}
+
+.objectives .home-objectives li {
+    margin: 10px 0px;
+    margin-bottom: 0px;
+}
+
+.objectives-section {
+    background-color: #f8f8f8;
+}
+
+
+/* About us page */
+
+.aboutus-container {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/about.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 16rem !important;
+}
+
+.side-board {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.membership {
+    list-style: circle;
+    line-height: 30px;
+}
+
+.membership li {
+    margin: 10px 0px;
+    margin-bottom: 0px;
+}
+
+.mem-div {
+    padding-bottom: 30px;
+}
+
+.member-section{
+    background-color: white;
+}
+
+.commitee {
+    line-height: 30px;
+}
+
+.commitee li {
+    margin: 10px 0px;
+    margin-bottom: 0px;
+}
+
+.commitee-div {
+    padding-bottom: 30px;
+}
+
+
+table {
+    border:1px solid #b3adad;
+    border-collapse:collapse;
+    padding:10px;
+}
+table th {
+    border:1px solid #b3adad;
+    padding:10px;
+    background: #1e60aa;
+    color: #ffffff;
+    text-align: center;
+}
+table td {
+    border:1px solid #b3adad;
+    text-align:center;
+    padding:10px;
+    background: #ffffff;
+    color: #313030;
+}
+
+/* .termdeposits-section button{
+    background-color:#1e60aa;
+    color: white;
+} */
+
+.phn-title {
+    display: none;
+}
+
+.staff-img img, .footerlogo {
+    width: 100%;
+}
+
+.termloan-container {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/loan.png) center center no-repeat;
+    background-size: cover;
+    padding-top: 16rem !important;
+}
+
+.termdeposit-container {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/deposit.png) center center no-repeat;
+    background-size: cover;
+    padding-top: 16rem !important;
+}
+
+.investment-container {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/investment.png) center center no-repeat;
+    background-size: cover;
+    padding-top: 16rem !important;
+}
+
+/*---------------------
+  Gallery Section
+-----------------------*/
+
+#image-gallery img{
+    width: 100%;
+}
+
+.img-wrapper {
+	position: relative;
+	margin-top: 15px;
+}
+.img-wrapper img {
+	width: 100%;
+}
+.img-overlay {
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+}
+.img-overlay i {
+	color: #fff;
+	font-size: 3em;
+}
+#overlay {
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 99999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#overlay img {
+	margin: 0;
+	width: 80%;
+	height: auto;
+	object-fit: contain;
+	padding: 5%;
+}
+@media screen and (min-width: 768px) {
+	#overlay img {
+		width: 60%;
+   }
+}
+@media screen and (min-width: 1200px) {
+	#overlay img {
+		width: 50%;
+   }
+}
+#nextButton {
+	color: #fff;
+	font-size: 2em;
+	transition: opacity 0.8s;
+}
+#nextButton:hover {
+	opacity: 0.7;
+}
+@media screen and (min-width: 768px) {
+	#nextButton {
+		font-size: 3em;
+   }
+}
+#prevButton {
+	color: #fff;
+	font-size: 2em;
+	transition: opacity 0.8s;
+}
+#prevButton:hover {
+	opacity: 0.7;
+}
+@media screen and (min-width: 768px) {
+	#prevButton {
+		font-size: 3em;
+   }
+}
+#exitButton {
+	color: #fff;
+	font-size: 2em;
+	transition: opacity 0.8s;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+#exitButton:hover {
+	opacity: 0.7;
+}
+@media screen and (min-width: 768px) {
+	#exitButton {
+		font-size: 3em;
+   }
 }
